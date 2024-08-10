@@ -1,0 +1,157 @@
+body, html {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+canvas {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.rafay-prom {
+    transition: transform 0.3s ease;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    top: 100px;
+    left: 750px;
+    z-index: 2;
+    position: absolute;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.rafay-prom:hover {
+    transform: scale(1.2);
+}
+
+.rafay-violin {
+    transition: transform 0.3s ease;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    top: 150px;
+    left: 1300px;
+    z-index: 2;
+    position: absolute;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.rafay-violin:hover {
+    transform: scale(1.2);
+}
+
+.rafay-squash {
+    transition: transform 0.3s ease;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    top: 150px;
+    left: 300px;
+    z-index: 2;
+    position: absolute;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.rafay-squash:hover {
+    transform: scale(1.2);
+}
+
+.rafay-speaker {
+    transition: transform 0.3s ease;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    top: 200px;
+    left: 1550px;
+    z-index: 2;
+    position: absolute;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.rafay-speaker:hover {
+    transform: scale(1.2);
+}
+
+.rafay-grad {
+    transition: transform 0.3s ease;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    top: 200px;
+    left: 150px;
+    z-index: 2;
+    position: absolute;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.rafay-grad:hover {
+    transform: scale(1.2);
+}
+
+.about-me {
+    transition: transform 0.3s ease;
+    top: 550px;
+    left: 525px;
+    position: absolute;
+    z-index: 2;
+    font-style: normal;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow:
+        0 0 15px rgba(255, 255, 255, 0.5),
+        0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.about-me:hover {
+    transform: scale(1.2);
+}
+
+.container-one {
+    top: 1000px;
+    left: 200px;
+    width: 700px;
+    height: 700px;
+    background-color: black;
+    border: 3px solid #5f7d1e;
+    z-index: 2;
+    position: absolute;
+}
+
+.titles {
+    margin-left: 50px;
+    font-style: normal;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow:
+        0 0 15px rgba(255, 255, 255, 0.5),
+        0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.paragraphs {
+    font-size: 30px;
+    margin-left: 50px;
+    color: white;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container-two {
+    top: 1800px;
+    left: 200px;
+    width: 1500px;
+    height: 700px;
+    background-color: black;
+    border: 3px solid #5f7d1e;
+    z-index: 2;
+    position: absolute;
+}
